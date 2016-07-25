@@ -1,10 +1,25 @@
-#include <iostream>
-using namespace std;
-#include "Menu.h"
+//============================================================================
+// Name        : Listas.cpp
+// Author      : VMeta
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include "ShoppingList.h"
+
+using namespace ITLA;
 
 int main()
 {
-	Menu menu;
-	menu.show();
-	return EXIT_SUCCESS;
+	ShoppingList* shopping = new ShoppingList();
+	while(true){
+		shopping -> printMenu();
+	}
+
+	return 0;
 }
+
+
+
+
