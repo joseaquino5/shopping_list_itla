@@ -3,7 +3,7 @@
 // Author      : VMeta
 // Version     :
 // Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Description : Shopping List in C++, Ansi-style
 //============================================================================
 
 #include "ShoppingList.h"
